@@ -12,6 +12,15 @@ public class SwapValues {
         a = a + b;
         b = a - b;
         a = a - b;
+
+        System.out.println("Dupa swap: ");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
         System.out.println("Dupa swap: ");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
